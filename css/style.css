@@ -134,6 +134,7 @@ header{
     line-height: 72px;
     color: #fff;
     position: relative;
+    cursor: pointer;
 }
 .section2 .flex_item::after{
     content: "";
@@ -239,6 +240,7 @@ header{
     justify-content: center;
     align-items: center;
     font-size: 20px;
+    cursor: pointer;
 }
 .section4 .title_txt{
     margin-bottom: 66px;
@@ -537,3 +539,24 @@ footer{
         width: 100%;
     }
 }
+
+.join_btn:hover{
+    background-color: #fff;
+    color: var(--main);
+}
+.link_btn:hover{
+    color: #fff;
+    text-shadow: 1px 1px 3px var(--main);
+}
+.main_logo:hover{
+    color: #fff;
+    text-shadow: 1px 1px 3px var(--main);
+}
+.submit_btn:hover{
+    background-color: #fff;
+    color: var(--main);
+    border:1px solid var(--main)
+}
+.section3 .flex_item:hover{border-color: var(--main);}
+.section2 .flex_item:hover{transform: scale(1.05);}
+.section4 .flex_item:hover{background-color: var(--main);color: #fff;}
