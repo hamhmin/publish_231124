@@ -461,7 +461,8 @@ footer{
     .section2 .flex_box{
         flex-direction: column;
         margin-top: 40px;
-        justify-content: space-between;
+        gap: 40px;
+        justify-content: space-around;
     }
     .section6 .flex_area{
         flex-direction: column;
@@ -484,7 +485,7 @@ footer{
         min-width: 100%;
     }
     .header_item{
-        font-size: 12px;
+        font-size: 11px;
         white-space: nowrap;
     }
 
