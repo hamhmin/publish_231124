@@ -33,7 +33,7 @@ u.addEventListener("click", function() {
         Email: ${r[1].value}
         Message: ${t.value}
         `
-        , n = `mailto:ceo@a-on.shop?subject=AON_Sysyem_Contact&body=${encodeURIComponent(s)}`;
+        , n = `mailto:ceo@a-on.shop?subject=엘앤케이 컴퍼니_Contact&body=${encodeURIComponent(s)}`;
       window.open(n)
 });
 });
