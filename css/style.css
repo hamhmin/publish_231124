@@ -433,7 +433,9 @@ footer{
         gap: 30px;
     }
     .header_box{
-        gap: 30px;
+        width: 100%;
+        justify-content: space-evenly;
+        gap: 0;
     }
     .section1 .title{
         font-size: 32px;
@@ -452,6 +454,9 @@ footer{
         padding: 80px 0;
         margin: 0 auto;
         height: 100%;
+        width: calc(100% - 60px);
+    }
+    .section3{
         width: 100%;
     }
     .section1 {
@@ -481,9 +486,12 @@ footer{
         gap: 40px;
     }
     .section3 .section_box{
-        width: 100%;
+        width: calc(100% - 60px);
         padding: 0;
-        min-width: 100%;
+        min-width: calc(100% - 60px);
+    }
+    .section5{
+        width: 100%;
     }
     .header_item{
         font-size: 11px;
