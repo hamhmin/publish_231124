@@ -25,15 +25,15 @@ $(document).ready(function(){
     });
 
     const u = document.querySelector(".submit_btn");
-u.addEventListener("click", function() {
-    const r = document.querySelectorAll(".form_inputs")
-        , t = document.querySelector(".form_textarea")
-        , s = `
-        Name: ${r[0].value}
-        Email: ${r[1].value}
-        Message: ${t.value}
-        `
-        , n = `mailto:ceo@a-on.shop?subject=엘앤케이 컴퍼니_Contact&body=${encodeURIComponent(s)}`;
-      window.open(n)
-});
+    u.addEventListener("click", function() {
+        const r = document.querySelectorAll(".form_inputs")
+            , t = document.querySelector(".form_textarea")
+            , s = `
+            Name: ${r[0].value}
+            Email: ${r[1].value}
+            Message: ${t.value}
+            `
+            , n = `mailto:ceo@a-on.shop?subject=엘앤케이 컴퍼니_Contact&body=${encodeURIComponent(s)}`;
+        window.open(n)
+    });
 });
